@@ -44,7 +44,7 @@ registerRoute(
     return true;
   },
   // createHandlerBoundToURL(process.env.PUBLIC_URL + '/index.html')
-  createHandlerBoundToURL('https://mac-queen.com/nuevo15/')
+  createHandlerBoundToURL('https://mac-queen.com/nuevo15')
 );
 
 // An example runtime caching route for requests that aren't handled by the
