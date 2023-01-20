@@ -6,6 +6,7 @@ let deferredPrompt;
     
 function App() {
   // const [installable, setInstallable] = useState(false);
+  const [ setInstallable] = useState(false);
 
   useEffect(() => {
     window.addEventListener("beforeinstallprompt", (e) => {
