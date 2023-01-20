@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-const repo = "https://github.com/adueck/pwa-install-demo";
+// const repo = "https://github.com/blas-rodriguez/pwa-install-demo.git";
 let deferredPrompt;  
     
 function App() {
-  const [installable, setInstallable] = useState(false);
+  // const [installable, setInstallable] = useState(false);
 
   useEffect(() => {
     window.addEventListener("beforeinstallprompt", (e) => {
